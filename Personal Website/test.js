@@ -1,4 +1,4 @@
-// script.js
+// test.js
 
 // Function to handle form submission
 document.addEventListener("DOMContentLoaded", () => {
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const message = document.getElementById("message").value;
 
         // Send email using EmailJS
-        emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+        emailjs.send("service_nh05op7", "template_2d80pkg", {
             from_name: name,
             reply_to: email,
             message: message
@@ -25,5 +25,3 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
-
-
